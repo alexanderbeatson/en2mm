@@ -1,5 +1,5 @@
-# RFunc
-Reproducible R code 
+# en2mm
+Translating English name to Myanmar
 
-You can convert names in English to Burmese by using my function,namely "nameEn2MM".
+You can convert names in English to Burmese by using this function,namely "en2mm".
 The library include in src folder and you can re-edit the dictionary for the sake of your datasets.
