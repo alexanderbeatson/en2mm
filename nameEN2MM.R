@@ -1,7 +1,7 @@
 function (df, col.No) {
   require (stringr)
   require (data.table)
-  name_df <- read.csv ("name_dict.csv", header = T, stringsAsFactors = F)
+  name_df <- read.csv ("./src/name_dict.csv", header = T, stringsAsFactors = F)
   for (i in 1:nrow(df)) {
     str_ext <- str_to_lower (df [i, col.No])
     str_loc <- str_locate_all (str_ext, "[a-z]+") [[1]]
